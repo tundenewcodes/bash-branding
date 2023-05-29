@@ -1,0 +1,35 @@
+.fancy-card {
+  background: url("../../assets/images/fancy-bg.png");
+  height: 320px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border:'1px solid red';
+  padding: 0px 5px;
+}
+
+.text-content {
+  font-family: "Exensa Grotesk";
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #ffffff;
+}
+
+.text-span {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  text-decoration-line: underline;
+  color: #d1b34f;
+}
+@media screen and (min-width: 968px) {
+  .fancy-card{
+    height: 320px;
+    width: 250px;
+  }
+}

@@ -1,0 +1,75 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  text-align: left;
+  padding: 20px;
+}
+.overlay:hover {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.card {
+  margin: 20px 10px;
+  height: 420px;
+  width: 100%;
+  padding: 10px;
+  background-color: #282828 !important;
+  cursor: pointer;
+}
+.card-img {
+  width: 100%;
+  height: 60% !important;
+  max-height: 240px !important;
+  position: relative;
+  overflow-y: hidden;
+}
+.overlay-text-div {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 0 5px;
+  margin: 0;
+}
+.overlay-text-div-title {
+  font-family: "Inter" sans-serif;
+  font-weight: 700;
+  line-height: 43.57px;
+  color: #ffffff;
+}
+.overlay-text-div-span {
+  text-decoration: underline;
+  font-family: "Inter" sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19.6px;
+  color: #d1b34f;
+  cursor: pointer;
+}
+.overlay-text-div-text {
+  font-family: "Extensa Grotesk" sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25.2px;
+  color: #ffffff;
+}
+
+.text-div{
+  width: 100%;
+  height: 40%;
+  min-height: 150px;
+  max-height: 40%;
+}
+
+@media screen and (min-width: 992px) {
+  .card {
+    height: 500px;
+  }
+}
