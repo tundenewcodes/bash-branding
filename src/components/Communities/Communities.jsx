@@ -43,7 +43,7 @@ const Communities = ({ setSelectedPage }) => {
                   md={{ span: 6, order: 1 }}
                   lg={{ span: 4, order: 1 }}
                   style={{
-                    padding: "0",
+                    padding: "10px",
                   }}
                 >
                  
@@ -59,8 +59,10 @@ const Communities = ({ setSelectedPage }) => {
                 </Col>
               ))}
           </Row>
-          <div className="d-flex justify-content-between">
-            <p className="text-white">
+          <div className="d-flex justify-content-between" style={{
+             padding: "10px",
+          }}>
+            <p className="text-white"  >
               Copyright © {new Date().getFullYear()} Bashirat Are | Designed by
               BACFInc
             </p>

@@ -23,7 +23,7 @@ const Projects = ({ setSelectedPage }) => {
           <Row
             className="justify-content-center align-items-center "
             style={{
-              padding: "0",
+              padding: "10px",
               minHeight: "100vh",
               width: "100%",
               margin: "auto",

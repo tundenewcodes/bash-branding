@@ -18,12 +18,12 @@ const Work = ({ setSelectedPage }) => {
             padding: "0",
           }}
         >
-          <Line text={"What I Does"} />
+          <Line text={"What I Do"} />
 
           <Row
             className=" justify-content-center align-items-center "
             style={{
-              padding: "0",
+             
               minHeight: "100vh",
               width: "100%",
               margin: "auto",
@@ -38,7 +38,7 @@ const Work = ({ setSelectedPage }) => {
                   md={{ span: 6, order: 1 }}
                   lg={{ span: 4, order: 1 }}
                   style={{
-                    padding: "0",
+                    padding: "10px",
            
                   }}
                 >

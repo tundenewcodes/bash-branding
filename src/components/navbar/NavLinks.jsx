@@ -1,11 +1,9 @@
 import { SelectedLink } from "../../utils/navlinks";
 import Link from "./Link";
 
-const Navlinks = ({ selectedPage, setSelectedPage,styles}) => {
+const Navlinks = ({ selectedPage, setSelectedPage, styles }) => {
   return (
-    <div className={styles}
-  
-    >
+    <div className={styles} data-aos="fade-up" data-aos-once="true">
       <Link
         page={SelectedLink.Home}
         selectedPage={selectedPage}
