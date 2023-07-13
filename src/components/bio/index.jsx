@@ -35,7 +35,7 @@ const Bio = ({ setSelectedPage }) => {
               <ColTwo />
             </Col>
           </Row>
-          <Header showTray={true} />
+          <Header showTray={true} selectedPage={SelectedLink.Home} setSelectedPage={setSelectedPage} />
         </Container>
       </MotionDiv>
     </section>

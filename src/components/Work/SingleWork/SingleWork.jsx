@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import Header from "../../bio/components/Header";
+
 import { Link, useParams } from "react-router-dom";
 import { WorkData } from "../../../utils/data";
 import SinglePageCard from "./SinglePageCard";

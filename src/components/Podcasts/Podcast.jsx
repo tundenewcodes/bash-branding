@@ -42,7 +42,7 @@ const Podcast = ({ setSelectedPage }) => {
               <ColTwo />
             </Col>
           </Row>
-          <Header />
+          <Header  selectedPage={SelectedLink.Podcast} setSelectedPage={setSelectedPage}  />
         </Container>
      </MotionDiv>
        

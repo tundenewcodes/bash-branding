@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import { useExport } from "../../../hooks/useExport";
-import usePageSetup from "../../../hooks/usePageSetup";
+
 import IconsTray from "../../../utils/IconsTray";
 import Navlinks from "../../navbar/NavLinks";
 
-const Header = ({ showTray = false, showNavLink = true }) => {
+const Header = ({ showTray = false, showNavLink = true, selectedPage, setSelectedPage }) => {
   const { logo } = useExport();
-  const { selectedPage, setSelectedPage } = usePageSetup();
+ 
   return (
     <header className=" header-div ">
       <Link  to={'/'}>
